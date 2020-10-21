@@ -31,7 +31,7 @@ public class Rectangle extends GeometricObject {
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return (2*this.length + 2*this.width);
     }
 
     @Override
@@ -41,7 +41,7 @@ public class Rectangle extends GeometricObject {
 
     @Override
     public double getArea() {
-        return 0;
+        return (this.length*this.width);
     }
 
     @Override

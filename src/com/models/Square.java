@@ -21,7 +21,7 @@ public class Square extends  GeometricObject{
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return (4*this.side);
     }
 
     @Override
@@ -31,7 +31,7 @@ public class Square extends  GeometricObject{
 
     @Override
     public double getArea() {
-        return 0;
+        return (this.side*this.side);
     }
 
     @Override
